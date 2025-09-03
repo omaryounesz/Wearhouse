@@ -1,47 +1,31 @@
-# WearHouse
+# 🧥 WearHouse
 
-**WearHouse** is a web application that allows university students to buy, sell, and trade second-hand clothing **exclusively within their university community**. The platform promotes sustainable fashion, reduces waste, and provides students with an affordable way to refresh their wardrobes.
+> A university-only marketplace to **buy, sell, and trade** second-hand clothing—promoting sustainable fashion, reducing waste, and keeping student budgets happy.
 
-**Status:** Work in progress  
-**Live Preview:** https://wearhouse-brown.vercel.app/
-
----
-
-## Features
-- University-exclusive access with email verification  
-- Buy, sell, and trade second-hand clothing  
-- User profiles and ratings  
-- Secure transactions  
-- Community-driven marketplace
+**Status:** 🚧 Work in progress  
+**Live Preview:** https://wearhouse-brown.vercel.app/  
+**Repository:** https://github.com/omaryounesz/wearhouse
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-### Backend
-- **Go** with **Fiber** framework  
-- **PostgreSQL** with **GORM**  
-- **JWT** authentication  
-- **Docker** for containerization
-
-### Frontend
-- **Next.js 14**  
-- **TypeScript**  
-- **Tailwind CSS**  
-- **React Query** (TanStack Query)
+- 🎓 **University-exclusive access** with email verification  
+- 🔁 **Buy / Sell / Trade** second-hand clothing  
+- 👤 **User profiles & ratings**  
+- 🔐 **Secure transactions** with JWT auth  
+- 🧑‍🤝‍🧑 **Community-driven marketplace**
 
 ---
 
-## Getting Started
+## 🧰 Tech Stack
 
-### Prerequisites
-- **Docker** and **Docker Compose**
-- **Node.js 18+** (for frontend development)
-- **Go 1.22+** (for backend development)
+| Layer     | Technology                                                                 |
+|-----------|-----------------------------------------------------------------------------|
+| Backend   | **Go** (Fiber), **PostgreSQL** (GORM), **JWT**, **Docker**                  |
+| Frontend  | **Next.js 14**, **TypeScript**, **Tailwind CSS**, **React Query** (TanStack) |
 
-### Development Setup
+---
 
-Clone the repository:
-```bash
-git clone https://github.com/omaryounesz/wearhouse.git
-cd wearhouse
+## 🏗️ Architecture (High-Level)
+
